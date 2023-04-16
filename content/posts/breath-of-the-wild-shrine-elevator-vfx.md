@@ -1,6 +1,6 @@
 ---
 title: "Breath of the Wild Shrine Elevator VFX with VFX Graph and Shader Graph"
-date: 2021-11-27T16:42:04+01:00
+date: 2020-11-27T16:42:04+01:00
 draft: false
 toc: false
 thumbnail: "/img/posts/breath-of-the-wild-shrine-elevator-vfx/Unity_2020-11-21_23-55-07.png"
