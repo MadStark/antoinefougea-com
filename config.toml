@@ -2,6 +2,7 @@ baseURL = 'https://madstark.github.io/antoinefougea-com/'
 languageCode = 'en-gb'
 title = 'Antoine Fougea'
 theme = 'hello-friend-ng'
+canonifyURLs = true
 
 paginate     = 10
 
