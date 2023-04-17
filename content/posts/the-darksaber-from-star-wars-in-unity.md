@@ -3,7 +3,8 @@ title: "The Darksaber from Star Wars in Unity"
 date: 2020-10-15T18:41:39+01:00
 draft: false
 toc: false
-images:
+description: "I attempt to reproduce the Darksaber from Star Wars in Unity. I used Shader Graph, the Universal Render Pipeline and its handy renderer features."
+thumbnail: "/img/posts/the-darksaber-from-star-wars-in-unity/thumbnail.jpg"
 tags:
   - unity
   - shader

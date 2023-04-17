@@ -3,7 +3,8 @@ title: "Wayfinder in Unity: Pathfinding on Custom Maps"
 date: 2020-08-29T19:30:28+01:00
 draft: false
 toc: false
-images:
+description: "An Editor tool along with a path-finding algorithm to make some sort of Google Maps for custom floor-plans within Unity."
+thumbnail: "/img/posts/wayfinder-in-unity-pathfinding-on-custom-maps/wayfinder_thumbnail.jpg"
 tags:
   - unity
   - unityeditor

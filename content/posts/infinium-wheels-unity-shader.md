@@ -3,7 +3,8 @@ title: "Infinium Wheels Unity Shader"
 date: 2020-07-27T20:02:24+01:00
 draft: false
 toc: false
-images:
+description: "Attempt at reproducing my favourite wheels from Rocket League. I talk shaders, Universal Render Pipeline and view direction."
+thumbnail: "/img/posts/infinium-wheels-unity-shader/thumbnail.png"
 tags:
   - unity
   - shader

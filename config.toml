@@ -1,57 +1,86 @@
 baseURL = 'https://madstark.github.io/antoinefougea-com/'
 languageCode = 'en-gb'
 title = 'Antoine Fougea'
-theme = 'hello-friend-ng'
+theme = 'mainroad'
 canonifyURLs = true
 
-paginate     = 10
+paginate = "10" # Number of posts per page
 
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+[Author] # Used in authorbox
+  name = "Antoine Fougea"
+  bio = ""
+  avatar = "img/logo.png"
 
-  # Subtitle for home
-  homeSubtitle = "Portfolio and Coding Blog"
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = true
-
-  # Enable sharing buttons, if you like
-  enableSharingButtons = false
-  
-  # Show a global language switcher in the navigation bar
-  enableGlobalLanguageMenu = false
-
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
-
-[taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
-
-[languages]
-  [languages.en]
-    title = "Antoine Fougea"
-    subtitle = "Portfolio and Coding Blog"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "Antoine Fougea"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-  # And you can even create generic menu
+[menu]
   [[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 10
+    url = "/about"
+  [[menu.main]]
+    name = "Blog"
     identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+    weight = 9
+    url = "/"
+
+[Params]
+  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
+#  copyright = "John Doe" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date"] # Order of post meta information
+  mainSections = ["posts"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "02 Jan 2006" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.style.vars]
+  highlightColor = "#2F88DA" # Override highlight color
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  image = "img/logo.png" # Logo image. Path relative to "static"
+  title = "Antoine Fougea" # Logo title, otherwise will use site title
+  subtitle = "Portfolio and coding blog" # Logo subtitle
+
+[Params.thumbnail]
+  visibility = ["list"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "left" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["recent", "taglist", "social"]
+
+[Params.widgets]
+  recent_num = 2 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  cached = false # activate cache if true
+  # Enable parts of social widget
+  twitter = "MadreDeDios77"
+  linkedin = "antoine-fougea"
+  github = "MadStark"
+
+# Custom social links
+#[[Params.widgets.social.custom]]
+#  title = "Youtube"
+#  url = "https://youtube.com/user/username"
+ # icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+#  rel = "noopener noreferrer" # Set to false to remove the rel attribute

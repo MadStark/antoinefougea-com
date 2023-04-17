@@ -3,7 +3,8 @@ title: "Breath of the Wild Stamina Bar With Shapes"
 date: 2020-08-16T19:50:32+01:00
 draft: false
 toc: false
-images:
+description: "Trying out Shapes in Unity by Freya Holmér. I made the Breath of the Wild stamina wheel in a matter of minutes!"
+thumbnail: "/img/posts/breath-of-the-wild-stamina-bar-with-shapes/thumbnail.png"
 tags:
   - unity
   - csharp

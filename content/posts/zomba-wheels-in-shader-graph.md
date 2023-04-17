@@ -3,12 +3,15 @@ title: "Zomba Wheels in Shader Graph"
 date: 2020-07-26T20:03:13+01:00
 draft: false
 toc: false
-images:
+description: "Attempt at reproducing some of my favourite wheels from Rocket League, the Zomba. I talk Shader Graph, pulses, spirals and alpha cutout."
+thumbnail: "/img/posts/zomba-wheels-in-shader-graph/thumbnail.png"
 tags:
   - unity
   - shader
   - shadergraph
   - vfx
+pager: false
+
 ---
 
 ## The Zomba wheels.

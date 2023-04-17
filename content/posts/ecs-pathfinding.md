@@ -3,7 +3,8 @@ title: "Making an ECS Pathfinding in Unity"
 date: 2020-10-28T17:57:45+01:00
 draft: false
 toc: false
-images:
+description: "For this first dev log, I talk about the two approaches I tried in order to achieve a pathfinding system in Unity ECS."
+thumbnail: "/img/posts/ecs-pathfinding/thumbnail.jpg"
 tags:
   - unity
   - ecs
@@ -24,6 +25,8 @@ While I’m really proud of that solution, and despite the fact that it looks aw
 ## Attempt #2: Unity NavMesh
 
 Unity provides a fair few tools to generate a navmesh. So I decided to start over and use those instead.
+
+![](/img/posts/ecs-pathfinding/Unity_2020-10-28_17-23-14.jpg)
 
 {{<youtube i6ZSjcMHZ3M>}}
 

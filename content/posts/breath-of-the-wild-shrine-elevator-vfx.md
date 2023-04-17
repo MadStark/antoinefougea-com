@@ -3,13 +3,15 @@ title: "Breath of the Wild Shrine Elevator VFX with VFX Graph and Shader Graph"
 date: 2020-11-27T16:42:04+01:00
 draft: false
 toc: false
-thumbnail: "/img/posts/breath-of-the-wild-shrine-elevator-vfx/Unity_2020-11-21_23-55-07.png"
+description: "This is a breakdown of my attempt at reproducing the shrine elevator VFX from The Legend of Zelda: Breath of the Wild. This was my first project using VFX graph."
+thumbnail: "/img/posts/breath-of-the-wild-shrine-elevator-vfx/thumbnail.png"
 tags:
   - unity
   - shader
   - shadergraph
   - vfx
   - vfxgraph
+pager: false
 ---
 
 I’ve been tempted to use VFX Graph for a long time now, and when I decided of my next VFX to make, I decided to only use VFX Graph instead of particle systems.

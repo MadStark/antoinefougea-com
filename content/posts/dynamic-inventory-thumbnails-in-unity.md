@@ -3,7 +3,8 @@ title: "Dynamic Inventory Thumbnails in Unity"
 date: 2020-09-22T19:04:32+01:00
 draft: false
 toc: false
-images:
+description: "Generating thumbnails at runtime for procedurally generated guns. Let’s talk render textures and layers."
+thumbnail: "/img/posts/dynamic-inventory-thumbnails-in-unity/0+10-33-27-2484.png"
 tags:
   - unity
   - ui
