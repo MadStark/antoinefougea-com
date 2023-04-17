@@ -4,7 +4,7 @@ title = 'Antoine Fougea'
 theme = 'mainroad'
 canonifyURLs = true
 
-paginate = "10" # Number of posts per page
+paginate = "15" # Number of posts per page
 
 [Author] # Used in authorbox
   name = "Antoine Fougea"
