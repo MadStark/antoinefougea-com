@@ -436,7 +436,7 @@ private void SetupRenderer(ref EntityCommandBuffer ecb, ref Entity entity, in Pa
 }
 ```
 
-Beatiful!
+Beautiful!
 
 ![](images/rate.gif)
 
