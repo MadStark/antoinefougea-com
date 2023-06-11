@@ -10,6 +10,8 @@ tags:
   - unityeditor
   - csharp
   - tool
+aliases:
+  - /blog/wayfinder-in-unity
 ---
 
 I made what I call a “wayfinder” plugin in Unity in order to do something similar to Google Maps but for a custom map layout, such as a private venue or a campus.

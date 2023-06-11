@@ -79,8 +79,7 @@ paginate = "15" # Number of posts per page
   github = "MadStark"
 
 # Custom social links
-#[[Params.widgets.social.custom]]
-#  title = "Youtube"
-#  url = "https://youtube.com/user/username"
- # icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
-#  rel = "noopener noreferrer" # Set to false to remove the rel attribute
+[[Params.widgets.social.custom]]
+  title = "Youtube"
+  url = "https://www.youtube.com/@madrededios77"
+  icon = "youtube.svg" # Optional. Path relative to "layouts/partials"

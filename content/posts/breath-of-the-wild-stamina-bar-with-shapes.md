@@ -9,6 +9,8 @@ tags:
   - unity
   - csharp
   - vfx
+aliases:
+  - /blog/breath-of-the-wild-stamina-bar-with-shapes
 ---
 
 Shapes is a plugin for Unity made by [Freya Holmér](https://twitter.com/FreyaHolmer). I’ve been looking for a quick project to try my hands at it.

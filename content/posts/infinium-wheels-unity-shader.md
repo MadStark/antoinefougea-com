@@ -9,6 +9,8 @@ tags:
   - unity
   - shader
   - vfx
+aliases:
+  - /blog/infinium-wheels-in-hlsl
 ---
 
 ## The Infinium wheels

@@ -10,6 +10,8 @@ tags:
   - shader
   - shadergraph
   - vfx
+aliases:
+  - /blog/the-darksaber-from-star-wars-in-unity
 ---
 
 The design of the Darksaber has always fascinated me. While lightsabers are already not physically possible, emitting a bright white light from a black source of light is even more surreal. Sounds like a good challenge in Unity!

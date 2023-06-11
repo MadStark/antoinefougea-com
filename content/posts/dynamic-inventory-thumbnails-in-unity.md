@@ -8,6 +8,8 @@ thumbnail: "/img/posts/dynamic-inventory-thumbnails-in-unity/0+10-33-27-2484.png
 tags:
   - unity
   - ui
+aliases:
+  - /blog/dynamic-inventory-thumbnails-in-unity
 ---
 
 In many games, even if they have thousands of different items to collect, they usually generate a sprite for each item through some automated scripts before shipping the game. While that is fine for most games, it can’t work for some other. All Borderlands games have billions of different guns procedurally generated at runtime. Storing so many sprites on disk being impossible, the thumbnails have to be generated at runtime, as the player opens the inventory and then cached for performance.
