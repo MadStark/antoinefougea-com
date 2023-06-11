@@ -11,3 +11,5 @@ I make games, shaders and VFX, Unity editor scripts, but also back-end services 
 
 I am always eager to learn and share my experience.
 
+![](images/banner.png)
+
