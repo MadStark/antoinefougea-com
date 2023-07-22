@@ -10,6 +10,8 @@ tags:
   - ecs
   - dots
   - csharp
+aliases:
+  - /blog/making-an-ecs-game-dev-log-01-pathfinding
 ---
 
 For this first dev log of making a game in ECS using Unity DOTS, I will talk about my experiments with pathfinding. The goal is simple, get an entity, here, the enemies, to a target location, here, the player.
